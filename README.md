@@ -6,6 +6,8 @@ Proyek ini adalah prototipe / demo Chatbot FAQ Universitas berbasis pendekatan *
 
 Repositori ini menggunakan arsitektur multi-komponen untuk mempermudah kolaborasi tim:
 - `backend/` : Berisi kode sumber untuk API server menggunakan FastAPI.
+- `frontend/` : Berisi antarmuka pengguna (UI) chat berbasis web murni.
+- `legacy/` : Berisi kode prototipe Flask lama yang diarsipkan untuk referensi tim.
 - `AGENTS.md` : Panduan kerja dan deskripsi tugas masing-masing role (NLP, Backend, Frontend).
 - `PRD_Chatbot_FAQ_Universitas.md` : Product Requirements Document lengkap dari proyek ini.
 

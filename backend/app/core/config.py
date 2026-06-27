@@ -12,7 +12,7 @@ class Settings:
     DATASET_PATH: Path = APP_DIR / "data" / "faqs.csv"
     
     # Threshold default untuk Cosine Similarity
-    DEFAULT_THRESHOLD: float = 0.3
+    DEFAULT_THRESHOLD: float = 0.25
     
     # Jawaban fallback jika score di bawah threshold
     FALLBACK_ANSWER: str = "Maaf, pertanyaan tidak ditemukan dalam basis FAQ kami."

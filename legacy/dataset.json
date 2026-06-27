@@ -1,0 +1,275 @@
+{
+  "intents": [
+    {
+      "tag": "pembuka",
+      "patterns": [
+        "Halo",
+        "Hallo",
+        "Hello ",
+        "Hi",
+        "Hai",
+        "Hei",
+        "Hey",
+        "Selamat Pagi",
+        "Selamat Siang",
+        "Selamat Sore",
+        "Selamat Malam",
+        "Test",
+        "Tes",
+        "Saya butuh bantuan",
+        "Min",
+        "Mimin",
+        "Admin"
+      ],
+      "responses": "Halo! Selamat datang<br /><br />Ada yang bisa saya bantu, nih?<br />Saya siap menjawab pertanyaanmu atau membantu kamu menemukan informasi yang kamu butuhkan.<br /><br />Ayo, kita mulai ngobrol"
+    },
+    {
+      "tag": "informasi",
+      "patterns": [
+        "Kapan penerimaan mahasiswa baru untuk tahun ini",
+        "Kapan tanggal mulai dan berakhir pendaftaran maba",
+        "Apakah ada informasi terbaru tentang penerimaan mahasiswa baru",
+        "Dapatkah Anda memberikan jadwal pendaftaran maba",
+        "Apakah ada batas waktu untuk mendaftar sebagai mahasiswa baru?",
+        "Di mana saya dapat menemukan informasi lengkap tentang penerimaan maba",
+        "Apakah mempunyai brosur"
+      ],
+      "responses": "Jangan Lupa Untuk Follow Instagram Kami dan Tetap Up-to-Date dengan Informasi Terbaru Universitas Universal<br /><br /><table><thead><tr><th><b>Gelombang Prioritas</b><br />Juli 2022 s.d. September 2022</th></tr></thead><tbody><tr><td>Lulus Tes</td><td>Beasiswa Penuh 8 Semester</td></tr><tr><td>Tidak Lulus Tes</td><td>75% Potongan SPP Tetap 2 Semester Pertama</td></tr></tbody></table><br /><br /><table><thead><tr><th><b>Gelombang 1</b><br />Oktober 2022 s.d. Februari 2023</th></tr></thead><tbody><tr><td>Reguler</td><td>50% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 1 <br />Juara kelas/lomba tingkat Kota/Kabupaten</td><td>50% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 2 <br />Juara lomba tingkat Provinsi</td><td>75% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 3 <br />Juara lomba tingkat Nasional/Internasional</td><td>100% Potongan SPP Tetap 2 Semester Pertama</td></tr></tbody></table><br /><br /><table><thead><tr><th><b>Gelombang 2</b><br />Maret 2023 s.d. Mei 2023</th></tr></thead><tbody><tr><td>Reguler</td><td>25% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 1 <br />Juara kelas/lomba tingkat Kota/Kabupaten</td><td>25% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 2 <br />Juara lomba tingkat Provinsi</td><td>50% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 3 <br />Juara lomba tingkat Nasional/Internasional</td><td>75% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Jalur Linearitas Program Studi</td><td>50% Potongan SPP Tetap 2 Semester Pertama</td></tr></tbody></table><br /><br /><table><thead><tr><th><b>Gelombang 3</b><br />Juni 2023 s.d. Agustus 2023</th></tr></thead><tbody><tr><td>Reguler</td><td>Tanpa Potongan</td></tr><tr><td>Jalur Linearitas<br />Program Studi</td><td>25% Potongan SPP Tetap 2 Semester Pertama</td></tr></tbody></table>"
+    },
+    {
+      "tag": "prosedur__pendaftaran",
+      "patterns": [
+        "Bagaimana cara mendaftar",
+        "Bagaimana proses atau prosedur pendaftaran mahasiswa baru",
+        "Cara mendaftar mahasiswa baru seperti apa?",
+        "Langkah-langkah pendaftaran mahasiswa baru apa saja",
+        "Bagaimana cara mengetahui status pendaftaran saya",
+        "Apakah ada seleksi atau tes yang harus diikuti untuk bisa diterima",
+        "Bagaimana cara mengetahui status pendaftaran saya sudah diterima atau belum",
+        "Apa langkah-langkah yang harus saya ikuti, untuk mendaftar",
+        "Apakah ada ujian masuk atau seleksi khusus yang harus saya ikuti, sebagai bagian dari proses pendaftaran",
+        "Bagaimana cara mendapatkan formulir pendaftaran"
+      ],
+      "responses": "Proses pendaftaran bisa dilakukan dengan:<ol><li>MEMPERSIAPKAN BERKAS</li><li>PENDAFTARAN<ul><li>Membeli Formulir (Rp100.000)</li><li>Mengisi formulir dengan lengkap</li><li>Mengembalikan formulir ke Ruang Admin UVERS</li></ul>UJIAN SARINGAN MASUK<ul><li>Mengikuti Ujian Saringan Masuk sesuai jadwal yang ditentukan UVERS</li></ul></li>DAFTAR ONLINE<ul><li>Calon mahasiswa juga dapat melakukan pendaftaran secara online</li></ul></li><li>MELAKUKAN DAFTAR ULANG<ul><li>Melakukan pembayaran Jas Almamater dan Biaya SPP Semester 1</li><li>Biaya SPP Semester 1 dapat dicicil minimal Rp2.000.000 pada cicilan pertama</li><li>Batas waktu maksimal pendaftaran ulang adalah 1 minggu setelah dinyatakan lulus Ujian Saringan Masuk</li></ul></li></ol><br /><table><tbody><tr><th colspan=\"2\">JADWAL PERKULIAHAN</th></tr></thead><tr><td>Senin - Jum'at</td><td>18:30 - 22:00</td></tr></tbody></table>"
+    },
+    {
+      "tag": "persyaratan__masuk",
+      "patterns": [
+        "Apa saja persyaratan untuk mendaftar",
+        "Berkas yang dibutuhkan apa saja?",
+        "Apakah ada persyaratan",
+        "Apa saja dokumen yang diperlukan sebagai syarat untuk mendaftar",
+        "Apa saja yang harus saya lengkapi untuk mendaftar",
+        "berkas yang harus saya siapkan untuk masuk",
+        "Apakah ada persyaratan bahasa Inggris yang harus dipenuhi?",
+        "Dokumen apa yang harus dilengkapi untuk mendaftar ?",
+        "Apakah ada persyaratan khusus bagi mahasiswa internasional yang ingin mendaftar?",
+        "Apakah saya perlu mengirimkan transkrip nilai atau sertifikat lainnya untuk pendaftaran",
+        "Apakah ada dokumen atau berkas tambahan yang diperlukan tergantung program studi yang dipilih?",
+        "Apakah ada persyaratan khusus seperti portofolio atau pengalaman kerja yang perlu disiapkan?",
+        "Apakah ada syarat tambahan seperti tes kesehatan atau sertifikat vaksinasi yang perlu dipenuhi?"
+      ],
+      "responses": "<ol><li>Berkas yang diperlukan sebagai persyaratan masuk antara berikut:</li><ul><li>1 lembar fotocopy E-KTP / PASPOR (WNA)</li><li>1 lembar fotocopy Akte Kelahiran</li><li>1 lembar fotocopy Kartu Keluarga</li><li>1 lembar fotocopy Surat Ganti Nama (jika nama berbeda dari Akte Kelahiran)</li><li>1 lembar fotocopy Legalisir Ijazah SMA/SMK/MA/PAKET C</li><li>1 lembar fotocopy Legalisir Surat Keterangan Lulus Sekolah (bagi yang belum memiliki Ijazah)</li><li>2 lembar Pas Foto 3x4 Berwarna Terbaru (Tuliskan nama di bagian belakang)</li></ul><li>PERSIAPAN VIDEO TALENT TEST</li><table><tbody><tr><th>Seni Tari</th><th>Seni Musik</th></tr><tr><td><ul><li>Video Tari Personal</li><li>Video Gerakan Kayang (semampunya)</li><li>Video Gerakan Split (semampunya)</li></ul></td><td><ul><li>Video Bermain Alat Musik Full Body</li></ul></td></tr></tbody></table><br /><span>Catatan: <br />Untuk Calon Mahasiswa Baru asal Batam, Talent Test dapat dilakukan langsung di Kampus Universitas Universal</span></ol>"
+    },
+    {
+      "tag": "biaya__pendidikan",
+      "patterns": [
+        "Berapa ukt uvers",
+        "Berapa besar uang yang harus dikeluarkan untuk masuk universitas ini?",
+        "Apakah ada biaya ukt yang harus dibayar untuk pendaftaran",
+        "Berapa biaya pendidikan untuk Universitas Universal?",
+        "Apakah biaya pendaftaran sudah termasuk dalam biaya kuliah?",
+        "Apakah uang kuliah dan uang lainnya sudah termasuk dalam biaya masuk?",
+        "Apakah ada biaya ukt tambahan yang harus dibayarkan jika mengambil program studi tertentu",
+        "Apa saja komponen uang pendidikan yang harus saya bayar",
+        "Berapa biaya ukt untuk menjadi mahasiswa baru",
+        "Apakah ada biaya tambahan selain biaya pendaftaran yang perlu saya persiapkan?",
+        "Apakah uang masuk berbeda antara program studi?",
+        "Apakah ada biaya yang tidak termasuk dalam biaya masuk, seperti biaya buku, seragam, dan lainnya?"
+      ],
+      "responses": "Untuk rincian biaya pendidikan di UVERS adalah sebagai berikut:<br /><br /><table><tr><td>FORMULIR</td><td>Rp100.000</td></tr><tr><td>JAS ALMAMATER &amp; BIAYA ADMINISTRASI</td><td>Rp600.000</td></tr></table><span>(1x bayar)</span><br /><br /><table><tr><td colspan=\"2\">BIAYA PER SEMESTER</td></tr><tr><td>BIAYA SPP TETAP</td><td>Rp4.000.000<br />per semester</td></tr><tr><td rowspan=\"2\">BIAYA SPP SKS</td><td>Rp230.000/sks<br />(Program studi PBM)</td></tr><tr><td>Rp180.000/sks<br />(Program studi lainnya)</td></tr></table><br />Contoh perhitungan biaya semester 1 prodi Pendidikan Bahasa Mandarin untuk harga normal (tanpa potongan) perkiraan SKS semester 1 = 20 SKS.<br /><br />Perhitungan SPP ini bisa disesuaikan dengan prodi yang dipilih.<br /><br /><table><tr><td>JAS ALMAMATER &amp; BIAYA ADMINISTRASI</td><td>Rp600.000</td></tr></table><span>(1x bayar)</span><br /><br /><table><tr><td colspan=\"2\">BIAYA PER SEMESTER</td></tr><tr><td>BIAYA SPP TETAP</td><td>Rp4.000.000<br />per semester</td></tr><tr><td>BIAYA SPP SKS<br /></td><td>Rp230.000/sks x 20 <br />=Rp4.600.000</td></tr><tr><td>TOTAL<br /></td><td>Rp9.200.000</td></tr></table>"
+    },
+    {
+      "tag": "pembayaran",
+      "patterns": [
+        "Apakah bisa dicicil",
+        "Proses pembayaran uang kuliah bagaimana?",
+        "Bagaimana cara atau metode pembayaran SPP yang tersedia?",
+        "Apakah ada opsi pembayaran cicilan untuk SPP?",
+        "Apa konsekuensi jika saya terlambat membayar SPP?",
+        "Bisakah saya melakukan pembayaran SPP secara online melalui internet banking atau aplikasi e-wallet?",
+        "Bagaimana cara melihat nomor virtual account untuk pembayaran SPP?",
+        "Apakah saya perlu membayar denda jika saya telat membayar SPP?",
+        "Apakah SPP bisa dibayar dengan kartu kredit?",
+        "Apakah ada kemudahan pembayaran SPP untuk mahasiswa yang sedang mengalami kesulitan keuangan?",
+        "Apakah ada batas waktu akhir untuk melakukan pembayaran cicilan SPP?",
+        "Bagaimana cara pembayaran SPP jika saya berada di luar kota atau luar negeri?",
+        "Bagaimana cara memperoleh informasi tagihan SPP yang harus saya bayar?",
+        "Apakah ada opsi pembayaran yang fleksibel atau cicilan untuk biaya masuk universitas?",
+        "Apakah ada batasan waktu untuk melakukan pembayaran biaya pendidikan?",
+        "Apa yang terjadi jika saya terlambat membayar?"
+      ],
+      "responses": "Untuk memudahkan proses pembayaran, SPP bisa dicicil hingga 5 kali. Waktu pembayaran SPP paling lambat adalah tanggal 12 setiap bulannya.<br /><br />Jika melewati tenggat waktu akan dikenakan denda Rp5.000/hari.<br /><br />Nominal pembayaran beserta denda (jika ada) akan tertera setelah menginputkan nomor virtual account.<br /><br />Pembayaran cicilan SPP ke-1 adalah syarat mahasiswa diberikan status aktif dan bisa mengikuti perkuliahan.<br /><br />Pembayaran dapat dilakukan melalui bank BCA, dengan 3 cara:<ul><li><a href=\"https://bit.ly/M-Banking_UVERS\">Melalui M-Banking</a></li><li><a href=\"https://bit.ly/ATM_Uvers\">Melalui Mesin ATM</a></li><li><a href=\"https://bit.ly/SetorTunai_UVERS\">Melalui Setoran tunai</a></li></ul>Bagi mahasiswa yang tidak memiliki rekening bank BCA dapat dicoba melalui bank masing-masing."
+    },
+    {
+      "tag": "beasiswa__potongan",
+      "patterns": [
+        "Apakah ada program beasiswa atau bantuan keuangan yang tersedia",
+        "Apa jenis beasiswa yang tersedia bagi mahasiswa yang ingin mendaftar",
+        "Apakah ada persyaratan khusus yang harus dipenuhi untuk mendapatkan beasiswa",
+        "Bagaimana cara mempertahankan beasiswa",
+        "Apakah beasiswa hanya tersedia untuk mahasiswa baru atau juga dapat diperoleh oleh mahasiswa yang sudah terdaftar?",
+        "Bagaimana nilai akademis mempengaruhi kemungkinan mendapatkan beasiswa?",
+        "Apakah ada batas waktu untuk mengajukan permohonan beasiswa?",
+        "Apakah ada kesempatan untuk mendapatkan beasiswa sepanjang tahun atau hanya tersedia di waktu-waktu tertentu?",
+        "Apakah program beasiswa hanya diperuntukkan bagi mahasiswa dengan kondisi keuangan yang kurang mampu atau juga tersedia bagi mahasiswa yang berprestasi?",
+        "Apakah ada beasiswa untuk mahasiswa yang mampu secara finansial namun memiliki prestasi akademik yang tinggi?",
+        "Apakah terdapat syarat khusus untuk mendapatkan potongan biaya kuliah atau beasiswa untuk mahasiswa yang berprestasi?",
+        "Bagaimana cara mengajukan permohonan untuk potongan biaya kuliah atau beasiswa untuk mahasiswa yang berprestasi?"
+      ],
+      "responses": "<h1>Gelombang Prioritas</h1><table><thead><tr><th>Kategori</th><th>Potongan</th><th>Durasi</th><th>Metode</th><th>Dokumen Pendukung</th></tr></thead><tbody><tr><td>Beasiswa Akademik (Lulus)</td><td>Kuliah Gratis</td><td>8 Semester</td><td rowspan=\"2\">Ujian Saringan Masuk (USM) Beasiswa</td><td rowspan=\"2\">Rapor dan Surat Rekomendasi Kepala Sekolah</td></tr><tr><td>Beasiswa Akademik (Tidak Lulus)</td><td>75%</td><td>2 Semester</td></tr></tbody></table><h1>Gelombang 1 / 2</h1><table><thead><tr><th>Kategori</th><th>Potongan</th><th>Durasi</th><th>Metode</th><th>Dokumen Pendukung</th></tr></thead><tbody><tr><td>Reguler</td><td>50%/25%</td><td rowspan=\"6\">2 Semester</td><td>USM Reguler</td><td>-</td></tr><tr><td>Jalur Prestasi 1 (Tingkat Kota/Kabupaten/Rapor)</td><td>50%/25%</td><td rowspan=\"3\">Tanpa USM</td><td>Sertifikasi Prestasi/Juara atau Rapor</td></tr><tr><td>Jalur Prestasi 2 (Tingkat Provinsi)</td><td>75%/50%</td><td rowspan=\"2\">Sertifikasi Prestasi/Juara</td></tr><tr><td>Jalur Prestasi 3 (Tingkat Nasional dan Internasional)</td><td>100%/75%</td></tr><tr><td>Jalur Sekolah Partner</td><td>75%/50%</td><td rowspan=\"2\">USM Reguler</td><td>Kartu Pelajar</td></tr><tr><td>Jalur Saudara Kandung</td><td>75%/50%</td><td>Kartu Keluarga</td></tr></tbody></table><h1>Gelombang 3</h1><table><thead><tr><th>Kategori</th><th>Potongan</th><th>Durasi</th><th>Metode</th><th>Dokumen Pendukung</th></tr></thead><tbody><tr><td>Reguler</td><td rowspan=\"6\">Tanpa Potongan + Added Value</td><td rowspan=\"6\">-</td><td rowspan=\"6\">USM Reguler</td><td rowspan=\"6\">-</td></tr><tr><td>Jalur Prestasi 1 (Tingkat Kota/Kabupaten/Rapor)</td></tr><tr><td>Jalur Prestasi 2 (Tingkat Provinsi)</td></tr><tr><td>Jalur Prestasi 3 (Tingkat Nasional dan Internasional)</td></tr><tr><td>Jalur Sekolah Partner</td></tr><tr><td>Jalur Saudara Kandung</td></tr><tr><td>Jalur Linearitas Program Studi</td><td>25%</td><td>2 Semester</td><td>USM Beasiswa</td><td>Sertifikasi Prestasi atau Rapor</td></tr></tbody></table><br /><br /><b>Syaratnya Apa Aja?</b><br />-Memiliki ketertarikan terhadap salah satu program studi yang ditawarkan.<br /><br />-Diusulkan/direkomendasikan oleh Kepala Sekolah secara tertulis.<br /><br />-Nilai rata-rata rapor (kelas X dan XI) minimal 8 dari skala 10.<br /><br />-Lulus Ujian Saringan Masuk UVERS dengan nilai minimal 7 dari skala 10.<br /><br />-Memiliki kedisiplinan yang baik dan keinginan besar untuk kuliah serta berprestasi.<br /><br /><b>Kewajibannya Apa Aja?</b><br />-Menandatangani surat perjanjian penerimaan beasiswa.<br /><br />-Wajib menyelesaikan perkuliahan di UVERS hingga lulus dan tepat waktu.<br /><br />-Indek Prestasi Semester minimal 2,75.<br /><br />-Setelah lulus kuliah wajib mengabdikan diri di lingkungan kerja UVERS selama 1 tahun.<br /><br />-Mematuhi semua peraturan di UVERS"
+    },
+    {
+      "tag": "daftar__online",
+      "patterns": [
+        "Apakah saya harus membuat akun terlebih dahulu sebelum mendaftar secara online?",
+        "Apakah ada batas waktu untuk mendaftar secara online?",
+        "Bagaimana cara melengkapi formulir pendaftaran secara online dan apa saja informasi yang perlu diisi",
+        "Apa saja tahapan seleksi yang harus saya lalui setelah mendaftar secara online",
+        "Bagaimana saya bisa mengetahui status pendaftaran saya setelah mendaftar secara online",
+        "Apakah saya bisa mengubah informasi atau dokumen yang sudah saya kirimkan setelah mendaftar secara online",
+        "Bagaimana prosedur pendaftaran online untuk masuk univ ini",
+        "Bagaimana cara mengakses platform pendaftaran online",
+        "Jika ada kendala, masalah, atau kesulitan selama proses pendaftaran online, ke mana saya bisa menghubungi untuk mendapatkan bantuan?",
+        "Apa saja persyaratan yang diperlukan untuk mendaftar secara online?",
+        "Bisa tidak daftar secara online untuk masuk universitas ini?"
+      ],
+      "responses": "<ol><li>Menghubungi kontak Admisi UVERS melalui <a href=\"https://bit.ly/whatsappOfficialUvers\">WhatsApp Official UVERS</a>.</li><li>Mengisi Formulir sesuai format yang diberikan.</li><li>Membayarkan biaya formulir senilai Rp100.000 ke rekening Bank BCA Universitas Universal, yakni 821 044 0489</li><li>Mendapatkan bukti kuitansi pembayaran dan juga hak akses berupa Username/Kode registrasi dan Password untuk login ke <a href=\"bit.ly/joinUvers\">Join UVERS</a>.</li><li>Gunakan Username/Kode registrasi dan Password yang telah diberikan untuk melakukan proses login ke <a href=\"bit.ly/joinUvers\">Join UVERS</a>.</li><li>Mengisi formulir di menu yang telah disediakan dengan benar dan lengkap sesuai petunjuk. Klik \"Simpan\" untuk menyimpan formulir.</li><li>Data akan divalidasi oleh admin maksimal 2x24 Jam, silahkan cek halaman secara berkala.</li><li>Mengupload semua berkas sesuai Persyaratan Masuk dengan tepat dan benar. Berkas/File harus berformat PDF. Klik \"Simpan\" untuk menyimpan berkas.</li><li>Sebelum menuju tahap Ujian Saringan Masuk (USM), data akan divalidasi oleh admin maksimal 2x24 Jam. Silahkan cek halaman secara berkala.</li><li>Jika data tervalidasi, maka dapat lanjut ketahap USM, klik \"Start Exam\" untuk memulai USM. Durasi USM 75 menit, terdapat timekeeper bewarna hijau sebagai panduan untuk mengetahui waktu yang telah berjalan.</li><li>Melakukan Tes Wawancara, pada tahap ini Anda diminta untuk menjawab pertanyaan dengan format essay</li><li>Anda akan segera mendapatkan hasil tes maksimal 2x24 Jam dan dapat Anda unduh. Silahkan cek halaman secara berkala.</li><li>Jika Anda dinyatakan Lulus, silakan melakukan Pendaftaran Ulang, perhatikan dengan baik batas waktu (7 hari) Daftar Ulang untuk terdaftar secara resmi sebagai Mahasiswa UVERS.</li></ol>"
+    },
+    {
+      "tag": "fasilitas",
+      "patterns": [
+        "Apa saja fasilitas yang ada",
+        "Apakah perpustakaan tersedia",
+        "Apa fasilitas olahraga yang tersedia",
+        "Apakah ada lab komputer",
+        "Apakah ada klub atau organisasi mahasiswa yang aktif",
+        "Apakah fasilitas keamanan tersedia",
+        "Apakah ada tempat parkir yang tersedia untuk mahasiswa",
+        "Apakah tersedia kantin",
+        "Apakah ada pusat karir atau layanan penempatan kerja untuk mahasiswa?",
+        "Apakah tersedia internet atau wifi yang dapat digunakan oleh mahasiswa",
+        "Apakah ada tempat untuk istirahat atau relaksasi seperti taman atau ruang santai ",
+        "Bagaimana dengan fasilitas kesehatan? Apakah terdapat klinik, pusat kesehatan atau uks?"
+      ],
+      "responses": "<ul><li>UVERS memiliki perpustakaan dengan koleksi buku dan jurnal yang cukup lengkap terbaru.</li><li>UVERS memiliki beberapa laboratorium komputer yang dilengkapi dengan internet.</li><li>UVERS menyediakan balai kesehatan dengan tujuan memberikan perawatan kesehatan yang mudah diakses, berkualitas, dan terjangkau bagi mahasiswa, staf, dan fakultas universitas.</li><li>UVERS memiliki lapangan olahraga seperti, lapangan basket, badminton, dan tenis meja.</li><li>UVERS memiliki lapangan parkir yang luas bagi kendaraan roda empat atau dua.</li><li>UVERS memiliki kantin vegetarian yang bersih dan nyaman.</li><li>UVERS memiliki pusat karir bernama UVERS Career Center (UCC). UCC dirancang untuk membantu kamu dalam mencapai tujuan karir dan meningkatkan keterampilan profesional.</li></ul>"
+    },
+    {
+      "tag": "program__studi",
+      "patterns": [
+        "Apa saja jurusan yang tersedia",
+        "Apa saja yang program studi ditawarkan",
+        "Apakah memiliki program studi yang terkait dengan bidang bisnis atau teknologi?",
+        "Apakah memiliki jurusan terkait dengan bidang seni atau desain?",
+        "Apakah ada program studi yang terkait dengan lingkungan atau keberlanjutan?",
+        "Apakah ada persyaratan khusus untuk mendaftar di program studi tertentu?",
+        "Bagaimana saya dapat memperoleh informasi mengenai kurikulum dan metode pembelajaran di program studi tertentu?",
+        "Apa saja opsi karir yang tersedia setelah lulus dari program studi tertentu",
+        "Apa saja program studi unggulan yang tersedia di universitas ini?",
+        "Bagaimana universitas ini mendefinisikan program studi unggulan?",
+        "Apa saja program studi yang menjadi unggulan"
+      ],
+      "responses": "Ada banyak program studi yang ditawarkan di UVERS seperti:<ul><li>Fakultas Bisnis<ul><li>Manajemen</li><li>Akuntansi</li></ul></li><li>Fakultas Komputer<ul><li>Teknik Informatika</li><li>Sistem Informasi</li><li>Teknik Perangkat Lunak*</li></ul></li><li>Fakultas Pendidikan, Bahasa, dan Budaya<ul><li>Pendidikan Bahasa Mandarin</li></ul></li><li>Fakultas Seni<ul><li>Seni Musik*</li><li>Seni Tari*</li></ul></li><li>Fakultas Teknik<ul><li>Teknik Industri*</li><li>Teknik Lingkungan*</li></ul></li></ul><span>(*) = Pilihan program studi untuk penawaran beasiswa pendidikan penuh</span><br /><br />Lebih lengkapnya mengenai masing-masing Program Studi, Kamu bisa mengecek pada <a href=\"https://bit.ly/programStudiUvers\">Program Studi UVERS</a>."
+    },
+    {
+      "tag": "akreditasi",
+      "patterns": [
+        "Bagaimana akreditasnya UVERS?",
+        "Universitas Universal sudah diakreditasi?, jika sudah siapa yang mengakreditasinya",
+        "Oleh siapa universitas ini diakreditasi",
+        "Bagaimana cara melihat status akreditas universitas ini",
+        "Apa perbedaan antara universitas yang terakreditasi dengan yang tidak terakreditasi",
+        "Apakah ada program studi atau fakultas yang tidak terakreditasi",
+        "Apa saja program studi yang sudah terakreditasi",
+        "Bagaimana akreditasnya universitas ini dan siapa yang melakukan akreditasi?",
+        "Berapa lama masa berlaku akreditasi universitas ini? Apakah ada periode tertentu di mana universitas perlu mengikuti proses akreditasi ulang?",
+        "Apakah setiap program studi memiliki akreditasnya tersendiri?",
+        "Bagaimana cara calon mahasiswa memastikan program studi yang mereka minati memiliki status akreditas yang baik?",
+        "Bagaimana proses akreditasi program studi dilakukan? Siapa yang bertanggung jawab dalam proses ini?"
+      ],
+      "responses": "Maaf, saat ini UVERS belum terakreditasi oleh Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT).<br /><br />Namun, UVERS terus berusaha untuk meningkatkan kualitas pendidikan dan memenuhi persyaratan untuk mendapatkan akreditasi di masa yang akan datang.<br /><br />Meskipun UVERS belum terakreditasi, kami tetap memberikan pendidikan yang berkualitas dan berupaya untuk memberikan pengalaman belajar yang terbaik bagi mahasiswa.<br /><br />Meskipun UVERS belum terakreditasi, program studi yang ditawarkan telah terakreditasi. Kamu bisa melihat informasi tentang <a href=\"https://bit.ly/akreditasiProgramStudiUvers\">Akreditasi Program Studi UVERS</a> untuk memperoleh informasi yang lebih lengkap."
+    },
+    {
+      "tag": "prestasi",
+      "patterns": [
+        "Apa saja prestasi yang telah diraih",
+        "Apakah ada kompetisi yang telah meraih penghargaan",
+        "Bisakah Anda menyebutkan beberapa prestasi yang pernah diterima",
+        "Berapa banyak mahasiswa yang telah mendapatkan penghargaan?",
+        "Apakah ada fakultas yang telah meraih prestasi khusus?",
+        "Apakah ada program atau kegiatan khusus yang telah memperoleh pengakuan atas prestasinya?",
+        "Apakah memiliki penghargaan khusus yang diakui baik secara nasional maupun internasional?",
+        "Apakah ada alumni yang telah meraih prestasi di tingkat nasional atau internasional setelah lulus",
+        "Dapatkah Anda memberikan contoh prestasi yang dihasilkan oleh para mahasiswa dalam bidang akademik, riset, olahraga, seni, atau kegiatan lainnya?",
+        "Apa saja prestasi kampus ini"
+      ],
+      "responses": "Universitas Universal sudah banyak mendapatkan penghargaan lokal maupun internasional. Prestasi ini merupakan hasil kerja keras dan kebanggaan bagi Universitas Universal.<br /><br />Untuk melihat daftar prestasi yang lebih lengkap, Kamu bisa mengunjungi<br /><a href=\"https://bit.ly/prestasiUvers\">Prestasi UVERS</a>."
+    },
+    {
+      "tag": "kerjasama",
+      "patterns": [
+        "Apakah Uvers memiliki kerja sama kampus lainnya?",
+        "Apa manfaat kerjasama universitas universal bagi mahasiswa?",
+        "Apa saja contoh kerja sama Universitas Universal dengan perusahaan eksternal?",
+        "Apakah Universitas Universal memiliki koneksi internasional dengan perguruan tinggi lain di luar negeri?",
+        "Apakah Uvers memiliki kerjasama dengan lembaga penelitian atau industri terkemuka?",
+        "Apakah ada kerjasama internasional yang memungkinkan mahasiswa untuk berpartisipasi dalam program pertukaran pelajar atau belajar di luar negeri?",
+        "Apakah ada kesempatan bagi mahasiswa untuk terlibat dalam penelitian atau proyek dengan fakultas atau perguruan tinggi lain?",
+        "Apakah ada program magang atau kerja sama dengan startup atau perusahaan rintisan di Uvers?",
+        "Apakah universitas ini memiliki hubungan dengan lembaga pemerintah atau organisasi non-profit di bidang tertentu?",
+        "Apakah universitas ini memiliki kemitraan dengan universitas-universitas di dalam negeri untuk kegiatan pertukaran pengajar?",
+        "Apakah universitas ini memiliki program kerja sama dengan universitas lain untuk mengadakan seminar, konferensi, atau acara akademik lainnya? "
+      ],
+      "responses": "Universitas Universal telah menjalin kerja sama dengan berbagai organisasi untuk pengembangan kompetensi mahasiswa.<br /><br />Kerja sama ini didasarkan pada misi UVERS untuk menjalin kerja sama dengan pelbagai institusi, baik di dalam maupun di luar negeri.<br /><br />Beberapa contoh kerja sama yang telah terjalin antara Universitas Universal dengan perusahaan dan organisasi eksternal meliputi:<ul><li>Glints</li><li>Oracle Academy</li><li>PT Bursa Efek Indonesia</li><li>J&T Express</li><li>PT Kresna Graha Sekurindo TBK</li><li>PT MNC Sekuritas</li><li>dan lain-lain</li></ul>Daftar kerja sama Universitas Universal dengan perusahaan dan organisasi lainnya tidak terbatas pada contoh di atas.<br /><br />Untuk melihat lebih banyak kerja sama yang telah terjalin, Kamu bisa mengunjungi <a href=\"https://bit.ly/kerjasamaUvers\">Kerja Sama UVERS</a> untuk informasi lebih lanjut.<br /><br />Menjalin kemitraan dengan organisasi eksternal, bertujuan untuk meningkatkan keterampilan praktis, pengetahuan, dan jaringan mahasiswa, sehingga mereka siap menghadapi tantangan dunia kerja."
+    },
+    {
+      "tag": "kos",
+      "patterns": [
+        "Apakah ada kos yang dekat dengan UVERS?",
+        "Apakah memiliki nama kosan yang dekat dengan kampus?",
+        "Apakah memiliki layanan bantuan dalam mencari kos yang sesuai dengan kebutuhan calon mahasiswa?",
+        "Bagaimana cara mencari kosan yang dekat",
+        "Apakah kos dekat universitas terdapat fasilitas yang memadai seperti internet, tempat parkir, atau akses transportasi umum?",
+        "Apakah kosan dekat universitas tersedia dalam berbagai tipe kamar atau hanya satu tipe kamar saja?",
+        "Berapa banyak kos yang dekat dengan universitas universal?",
+        "Bisakah Anda merekomendasikan kosan yang dekat dengan UVERS?",
+        "Apakah universitas menyediakan informasi atau rekomendasi tempat kos dekat kampus?",
+        "Apakah ada kawasan atau daerah khusus yang disarankan untuk mencari kosan dekat universitas?",
+        "Bagaimana saya bisa mendapatkan daftar kos yang terletak dekat dengan universitas?",
+        "Apakah memiliki informasi tentang fasilitas dan pelayanan yang disediakan oleh pemilik kosan?"
+      ],
+      "responses": "Saat ini UVERS belum menyediakan asrama.<br /><br />Namun di sekitar UVERS terdapat banyak pilihan kos-kosan yang dapat dipilih.<br />Namun, untuk menemukan kos yang tepat sesuai dengan keinginan dan kebutuhan kamu, mungkin kamu bisa mencari informasi mengenai kos-kosan dari media online seperti:<ul><li>Aplikasi pencari kos-kosan (mamikos.com)</li><li>Grup Facebook khusus kos-kosan di daerah Batam</li></ul>Biasanya, informasi tersebut cukup akurat dan dapat membantu kamu dalam mencari kos-kosan yang diinginkan.<br /><br />Namun saya akan coba bantu kamu, silahkan kamu kunjungi <a href=\"https://bit.ly/kosSekitarUvers\">Kos Sekitar UVERS</a> untuk melihat lokasi kos-kosan yang berada disekitar UVERS<br /><br />Semoga membantu kamu dalam mencari kos-kosan disekitar UVERS"
+    },
+    {
+      "tag": "nomor__telepon",
+      "patterns": [
+        "Bagaimana cara saya terhubung dengan UVERS",
+        "Bisa memberikan nomor UCC (Pusat Karir Universitas)",
+        "Apakah dapat memberikan nomor telepon vihara?",
+        "Apakah bisa memberikan informasi kontak humas atau admin",
+        "Bagaimana saya bisa mendapatkan nomor telepon pusat bahasa",
+        "Bisakah memberikan kontak untuk admin kemahasiswaan",
+        "Ada nomor telepon buat tanya-tanya soal kerjaan setelah lulus, seperti pusat karir",
+        "Ada nomor buat kontak pusat bahasa di kampus?",
+        "Ada kontak humas atau admin universitas yang bisa dihubungi?",
+        "Aku pengen tahu nomor telepon vihara di kampus.",
+        "Ada nomor buat tanya admin kemahasiswaan?",
+        "Mau minta nomor telepon administrasi di kampus",
+        "Ada cara buat langsung ngobrol sama adminnya",
+        "Apakah ada opsi buat lanjut diskusi sama admin",
+        "Saya butuh bantuan langsung dari admin"
+      ],
+      "responses": "Tentu! Berikut nomor kontak yang bisa kamu hubungi:<ul><li>Admisi: 085272161218 atau 0778 473399 / 466869</li><li>Pusat Karir Uvers (UCC): 08994819885</li><li>Pusat Bahasa Universitas: 08998825888 atau 082236011818</li><li>Kemahasiswaan: 08994819885</li><li>Vihara: (0778) 462901</li>"
+    }
+  ]
+}

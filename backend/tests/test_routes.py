@@ -28,14 +28,14 @@ def test_get_faqs(client):
 
 def test_chat_valid_question(client):
     """Menguji endpoint /api/chat dengan pertanyaan valid yang menghasilkan kecocokan"""
-    response = client.post("/api/chat", json={"message": "Bagaimana prosedur pengajuan cuti kuliah?"})
+    response = client.post("/api/chat", json={"message": "Bagaimana cara mendaftar menjadi mahasiswa baru?"})
     assert response.status_code == 200
     data = response.json()
     assert "answer" in data
     assert "score" in data
     assert "matched_question" in data
     assert data["score"] >= settings.DEFAULT_THRESHOLD
-    assert "cuti" in data["matched_question"].lower()
+    assert "daftar" in data["matched_question"].lower()
 
 def test_chat_empty_question(client):
     """Menguji input kosong atau whitespace mengembalikan error 422"""
@@ -49,7 +49,7 @@ def test_chat_empty_question(client):
 
 def test_chat_fallback_response(client):
     """Menguji pertanyaan tidak relevan mengembalikan pesan fallback (skor di bawah threshold)"""
-    response = client.post("/api/chat", json={"message": "beli bakso dekat kampus di mana?"})
+    response = client.post("/api/chat", json={"message": "nasi goreng bakso"})
     assert response.status_code == 200
     data = response.json()
     assert data["answer"] == settings.FALLBACK_ANSWER
