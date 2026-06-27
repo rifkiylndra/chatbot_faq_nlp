@@ -78,3 +78,20 @@ def test_reload_endpoint(client):
     data = response.json()
     assert data["status"] == "success"
     assert "berhasil dimuat ulang" in data["message"]
+
+def test_chat_conversational_fillers(client):
+    """Menguji kueri dengan kata pengisi/panggilan percakapan (min, kak, dong) tidak merusak pencocokan"""
+    # Kueri: "apakah ada program beasiswa min"
+    response = client.post("/api/chat", json={"message": "apakah ada program beasiswa min"})
+    assert response.status_code == 200
+    data = response.json()
+    assert data["score"] >= settings.DEFAULT_THRESHOLD
+    # Harus mencocokkan FAQ beasiswa, bukan sapaan Halo
+    assert "beasiswa" in data["matched_question"].lower()
+    
+    # Kueri: "syarat pendaftaran dong kak"
+    response = client.post("/api/chat", json={"message": "syarat pendaftaran dong kak"})
+    assert response.status_code == 200
+    data = response.json()
+    assert data["score"] >= settings.DEFAULT_THRESHOLD
+    assert "daftar" in data["matched_question"].lower() or "persyaratan" in data["matched_question"].lower()

@@ -26,6 +26,7 @@ STOPWORDS = set(
     di dari adalah dengan akan bisa atau juga saya kamu kita mereka aku
     anda mau ya gak nggak deh sih kok nih bagaimana gimana banget
     cara berapa apakah adakah tersebut yaitu sebagai sebuah suatu hal
+    min mimin admin kak kakak dong
     """.split()
 )
 
